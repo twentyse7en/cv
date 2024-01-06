@@ -87,21 +87,44 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Timeline",
+      year: "2023",
+      techStack: ["Go", "Postgres"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Save your thoughts instantly",
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "timeline",
+        href: "https://github.com/twentyse7en/timeline",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Nexa",
+      techStack: ["React", "Javascript"],
+      year: "2023",
+      description: "App for real-time spending analysis. Won first prize in a 24-hour hackathon among 23 other teams",
+      logo: Minimal,
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Artham",
+      techStack: ["Javascript", "Browser Extension"],
+      year: "2022",
+      description: "Malayalam - English dictionary on double click 📖🦄",
+      logo: Minimal,
+      link: {
+        label: "",
+        href: "https://github.com/twentyse7en/artham",
+      },
+    },
+    {
+      title: "Notes",
+      techStack: ["Hugo", "HTML", "CSS"],
+      year: "2022",
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Personal Blog",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -109,114 +132,60 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Scripts",
+      techStack: ["BASH"],
+      year: "2022",
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Collection of bash scripts I use daily",
+      logo: Minimal,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "Scripts",
+        href: "https://github.com/twentyse7en/scripts",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Insider Scoreboard",
+      techStack: ["React", "Python", "Postgres"],
+      year: "2021",
+      description: "Track insider trading in NSE and BSE",
+      logo: Minimal,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "",
+        href: "https://github.com/twentyse7en/Insiderscoreboard",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      title: "Random Stock",
+      techStack: ["React", "Javascript"],
+      year: "2021",
+      description: "Picks a random stock from BSE",
+      logo: Minimal,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "",
+        href: "https://github.com/twentyse7en/randomstock",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      title: "pulse-cli",
+      techStack: ["Python"],
+      year: "2021",
+      description: "Read stock news from terminal",
+      logo: Minimal,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "",
+        href: "https://github.com/twentyse7en/pulsecli",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+      title: "Olam-rofi",
+      techStack: ["BASH"],
+      year: "2021",
+      description: "Simple malayalam dictionary using rofi",
+      logo: Minimal,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "",
+        href: "https://github.com/twentyse7en/OlamRofi",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
