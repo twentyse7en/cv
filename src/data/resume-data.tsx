@@ -77,7 +77,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Record",
-      year: 2023,
+      year: "2023",
       techStack: ["Javascript", "Browser Extension"],
       description:
         "Record screen from browser and convert to mp4 without server",
