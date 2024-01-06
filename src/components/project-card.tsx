@@ -11,14 +11,16 @@ interface Props {
   title: string;
   description: string;
   tags: readonly string[];
+  year?: string;
   link?: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, link, year }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
         <div className="space-y-1">
+          <div className="flex items-center justify-between">
           <CardTitle className="text-base">
             {link ? (
               <a
@@ -33,6 +35,8 @@ export function ProjectCard({ title, description, tags, link }: Props) {
               title
             )}
           </CardTitle>
+          <p className="text-xs">{ year }</p>
+          </div>
           <div className="hidden font-mono text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
