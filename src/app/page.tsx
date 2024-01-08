@@ -4,7 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, BookText } from "lucide-react";
+
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -47,18 +48,28 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
+              {RESUME_DATA.contact.blog ? (
                 <Button
                   className="size-8"
                   variant="outline"
                   size="icon"
                   asChild
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  <a href={RESUME_DATA.contact.blog}>
                     <PhoneIcon className="size-4" />
                   </a>
                 </Button>
               ) : null}
+              <Button
+                  className="size-8"
+                  variant="outline"
+                  size="icon"
+                  asChild
+                >
+                  <a href={RESUME_DATA.contact.blog}>
+                    <BookText className="size-4" />
+                  </a>
+                </Button>
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}

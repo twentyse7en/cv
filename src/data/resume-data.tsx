@@ -33,6 +33,7 @@ export const RESUME_DATA = {
   contact: {
     email: "abijithbahuleyan@gmail.com",
     tel: "+919048873931",
+    blog: "https://twentyse7en.vercel.app/",
     social: [
       {
         name: "GitHub",
@@ -61,10 +62,21 @@ export const RESUME_DATA = {
       badges: ["React", "Typescript", "Javascript"],
       title: "Software Engineer",
       logo: ParabolLogo,
-      start: "2021",
+      start: "Jul 2021",
       end: "Present",
       description:
         "Implemented new features, Migrated project to React 18, Improved dev server uptime by 4x, Mentored 5+ juniors in react and javascript, Delivered responsive, cross-browser compatible React application with unit testing with 90% coverage",
+    },
+    {
+      company: "Google Summer of Code",
+      link: "https://summerofcode.withgoogle.com/",
+      badges: ["React", "Typescript", "Python"],
+      title: "Intern",
+      logo: ParabolLogo,
+      start: "Jun 2020",
+      end: "Aug 2020",
+      description:
+        "Implemented new features, enhanced user experience, Fixed several bugs and made usability improvements in backend using python",
     }
   ],
   skills: [
